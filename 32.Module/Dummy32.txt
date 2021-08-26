@@ -25,3 +25,4 @@ WD_day_32_M32
  -------------------------------------->
 
 create elements function in .then()
+ Get, Post, Patch, Delete, Crud, Get Vs Post
