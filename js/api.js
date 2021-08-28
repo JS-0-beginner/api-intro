@@ -38,7 +38,7 @@ function displayUsers(data) {
 
 
 /*-------------------------------------------------------------------------------*\
-     / Getting data and Displaying thet data in webpage from another server  \
+     / Getting data and Displaying that data in webpage from another web-server  \
 \*-------------------------------------------------------------------------------*/
  
 function loadusers() {
