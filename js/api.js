@@ -6,20 +6,20 @@
 function loadjson() {
   fetch("https://jsonplaceholder.typicode.com/todos/1") //stringified items
     .then((response) => response.json())
-    .then((json) => console.log(json.title));
+    .then((json) => console.log(json));
 }
 
 /*-------------------------------------------------------------------------------*\
   //////////////////////////////// loadusers \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \*-------------------------------------------------------------------------------*/
-/* 
+
 function loadusers()
 {
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(res => res.json())
     .then(data => console.log(data));
 } 
-*/
+
 
 // loadpost() //Autocall
 
@@ -36,8 +36,10 @@ function displayUsers(data) {
 }
  */
 
-////////////// create elements function in .then() //////////////
 
+/*-------------------------------------------------------------------------------*\
+     / Getting data and Displaying thet data in webpage from another server  \
+\*-------------------------------------------------------------------------------*/
  
 function loadusers() {
   fetch("https://jsonplaceholder.typicode.com/users")
@@ -45,6 +47,7 @@ function loadusers() {
     .then(users => displayUsers(users));
 }
 
+////////////// create elements function in .then() //////////////
 function displayUsers(users) 
 {
     // console.log(user);
